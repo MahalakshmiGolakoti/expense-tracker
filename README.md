@@ -18,15 +18,6 @@ This project allows users to manage daily expenses by adding and viewing expense
 * JDBC
 * Object-Oriented Programming (OOP)
 
-## Project Structure
-
-expense-tracker
-│
-├── DBConnection.java
-├── Expense.java
-├── ExpenseDAO.java
-├── Main.java
-
 ## Database Setup
 
 Run the following SQL commands in MySQL Workbench:
@@ -42,6 +33,16 @@ amount DOUBLE,
 category VARCHAR(50),
 expense_date DATE
 );
+
+The following screenshot shows the creation of the database and table in MySQL Workbench.
+
+![Database Setup](database_setup.png)
+
+## Stored Expense Records
+
+The following screenshot shows the expense records stored in the MySQL database.
+
+![Expense Records](expense_records.png)
 
 ## How to Run the Project
 
@@ -65,3 +66,12 @@ Through this project I learned:
 * MySQL database operations
 * Building a simple backend console application
 
+## Future Improvements
+
+* Implement update and delete operations for expenses.
+* Add monthly and category-wise expense reports.
+* Improve the user interface with a graphical interface.
+* Convert the application into a web-based system using **Spring Boot**.
+* Build REST APIs for managing expenses.
+* Develop a frontend interface using **HTML, CSS, and JavaScript** to interact with the backend.
+* Deploy the application on a cloud platform for real-time usage.
